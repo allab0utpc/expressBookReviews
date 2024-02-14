@@ -72,5 +72,4 @@ public_users.get('/review/:isbn', function (req, res) {
   return res.status(200).json(book.reviews || {});
 });
 
-
 exports.general = public_users;
